@@ -973,6 +973,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 1024px) {
 
+		/*.short-text { display: inline-block; }*/
+    	/*.full-text { display: none; }*/
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -2828,7 +2831,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-left: 25em;
+		padding-left: 21em;
 	}
 
 /* Main */
@@ -2906,7 +2909,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-right: 0em;
 			}
 
 		/* Main */
@@ -2936,7 +2939,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 0em;
 			}
 
 	}
@@ -3126,7 +3129,7 @@ input, select, textarea {
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
-				/*display: none;*/
+				display: none;
 			}
 
 			h2 {
@@ -3198,11 +3201,11 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 17em;
-				-moz-transform: translateX(-17em);
-				-webkit-transform: translateX(-17em);
-				-ms-transform: translateX(-17em);
-				transform: translateX(-17em);
+				width: 14em;
+				-moz-transform: translateX(-14em);
+				-webkit-transform: translateX(-14em);
+				-ms-transform: translateX(-14em);
+				transform: translateX(-14em);
 				right: 0;
 			}
 
@@ -3253,9 +3256,20 @@ input, select, textarea {
 
 		/* Header Panel */
 
+			#titleBar .title {
+				color: #fff;
+				display: block;
+				font-weight: 700;
+				height: 44px;
+				line-height: 44px;
+				padding: 0 5em;
+				width: 100%;
+				text-align: left;
+			}
+
 			#titleBar .toggle {
 				height: 4em;
-				width: 6em;
+				width: 4em;
 			}
 
 				#titleBar .toggle:before {
@@ -3264,10 +3278,10 @@ input, select, textarea {
 				}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(17em);
-				-webkit-transform: translateX(17em);
-				-ms-transform: translateX(17em);
-				transform: translateX(17em);
+				-moz-transform: translateX(14em);
+				-webkit-transform: translateX(14em);
+				-ms-transform: translateX(14em);
+				transform: translateX(14em);
 			}
 
 	}
@@ -3279,7 +3293,7 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				min-width: 320px;
+				min-width: 280px;
 			}
 
 			body, input, select, textarea {
